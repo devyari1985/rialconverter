@@ -21,3 +21,5 @@ ios/Pods/
 # OS
 .DS_Store
 Thumbs.db
+
+android/app/debug.keystore
