@@ -1,8 +1,8 @@
 ﻿{
     "expo":  {
                  "name":  "RialConverter",
-                 "slug":  "rialconverter",
-                 "version":  "1.0.3",
+                 "slug":  "rialconverter-ypwevtpg5a3kqqp6ffwei",
+                 "version":  "1.0.0",
                  "orientation":  "portrait",
                  "icon":  "./assets/RialConverter.png",
                  "splash":  {
@@ -31,10 +31,9 @@
                          },
                  "android":  {
                                  "package":  "com.appyari.rialconverter",
-                                 "versionCode":  3,
                                  "adaptiveIcon":  {
                                                       "foregroundImage":  "./assets/RialConverter.png",
-                                                      "backgroundColor":  "#2D83C6"
+                                                      "backgroundColor":  "#20B36C"
                                                   },
                                  "permissions":  [
 
@@ -45,11 +44,11 @@
                                                             "android.permission.ACCESS_NETWORK_STATE"
                                                         ]
                              },
+                 "owner":  "allahyari1049",
                  "extra":  {
                                "eas":  {
-                                           "projectId":  "17f1c8b5-f55a-48e1-bf22-c7fb94059925"
+                                           "projectId":  "d4359377-6e9c-464d-98a7-ee338289f48e"
                                        }
-                           },
-                 "owner":  "allahyari1049"
+                           }
              }
 }
