@@ -1,0 +1,33 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+  includeBuild("../node_modules/react-native-gradle-plugin")
+  includeBuild("../node_modules/expo-modules-autolinking/android")
+}
+
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+  repositories {
+    google()
+    mavenCentral()
+  }
+}
+
+rootProject.name = "RialConverter"
+include(":app")
+
+// React Native Gradle plugin (safe)
+def rnPlugin = file("../node_modules/react-native-gradle-plugin/react-native-gradle-plugin.gradle")
+if (rnPlugin.exists()) {
+  apply from: rnPlugin
+}
+
+// Expo autolinking (safe)
+def expoAuto = file("../node_modules/expo-modules-autolinking/scripts/autolinking.gradle")
+if (expoAuto.exists()) {
+  apply from: expoAuto
+  useExpoModules()
+}

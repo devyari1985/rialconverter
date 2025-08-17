@@ -1,0 +1,55 @@
+﻿{
+    "expo":  {
+                 "name":  "RialConverter",
+                 "slug":  "rialconverter",
+                 "version":  "1.0.3",
+                 "orientation":  "portrait",
+                 "icon":  "./assets/RialConverter.png",
+                 "splash":  {
+                                "image":  "./assets/splash-icon.png",
+                                "resizeMode":  "contain",
+                                "backgroundColor":  "#ffffff"
+                            },
+                 "userInterfaceStyle":  "automatic",
+                 "updates":  {
+                                 "enabled":  false
+                             },
+                 "plugins":  [
+                                 [
+                                     "expo-build-properties",
+                                     {
+                                         "android":  {
+                                                         "enableProguardInReleaseBuilds":  true,
+                                                         "enableShrinkResourcesInReleaseBuilds":  true,
+                                                         "usesCleartextTraffic":  false
+                                                     }
+                                     }
+                                 ]
+                             ],
+                 "ios":  {
+                             "supportsTablet":  true
+                         },
+                 "android":  {
+                                 "package":  "com.appyari.rialconverter",
+                                 "versionCode":  3,
+                                 "adaptiveIcon":  {
+                                                      "foregroundImage":  "./assets/RialConverter.png",
+                                                      "backgroundColor":  "#2D83C6"
+                                                  },
+                                 "permissions":  [
+
+                                                 ],
+                                 "blockedPermissions":  [
+                                                            "android.permission.SYSTEM_ALERT_WINDOW",
+                                                            "android.permission.INTERNET",
+                                                            "android.permission.ACCESS_NETWORK_STATE"
+                                                        ]
+                             },
+                 "extra":  {
+                               "eas":  {
+                                           "projectId":  "17f1c8b5-f55a-48e1-bf22-c7fb94059925"
+                                       }
+                           },
+                 "owner":  "allahyari1049"
+             }
+}

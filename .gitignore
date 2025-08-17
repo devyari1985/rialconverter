@@ -1,0 +1,23 @@
+﻿# dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# expo/eas local
+.expo/
+.easl/
+*.tar.gz
+
+# android local
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+
+# ios local (if exists)
+ios/build/
+ios/Pods/
+
+# OS
+.DS_Store
+Thumbs.db

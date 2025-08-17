@@ -1,0 +1,7 @@
+{
+  "cli": { "version": ">= 3.16.0", "appVersionSource": "remote" },
+  "build": {
+    "production": { "android": { "buildType": "app-bundle" } },
+    "apk":        { "android": { "buildType": "apk" } }
+  }
+}

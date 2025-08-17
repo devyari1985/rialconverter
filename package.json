@@ -1,0 +1,28 @@
+{
+  "name": "rialconverter",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/vazirmatn": "^0.4.0",
+    "expo": "~53.0.20",
+    "expo-build-properties": "~0.14.8",
+    "expo-font": "~13.3.2",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@expo/config-plugins": "^10.1.2",
+    "@types/react": "~19.0.10",
+    "react-native-gradle-plugin": "^0.71.19",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
